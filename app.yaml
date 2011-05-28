@@ -1,0 +1,38 @@
+application: eibiisiibotpy
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  script: main.py
+
+- url: /update
+  script: post.py
+
+- url: /timeline
+  script: post.py
+
+- url: /parse
+  script: post.py
+
+- url: /soup
+  script: testsoup.py
+
+- url: /cooking
+  script: post.py
+
+- url: /reply
+  script: post.py
+
+- url: /checkdm
+  script: post.py
+
+- url: /recomend
+  script: post.py
+
+- url: /keyphrase
+  script: post.py
+
+- url: /sawayaka
+  script: post.py

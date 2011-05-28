@@ -1,0 +1,21 @@
+cron:
+- url: /update
+  schedule: every 6 hours
+
+- url: /parse
+  schedule: every 4 hours
+
+- url: /cooking
+  schedule: every day of month 18:00
+  timezone: Asia/Tokyo
+
+- url: /reply
+  schedule: every 3 minutes
+
+- url: /checkdm
+  schedule: every day of month 23:50
+  timezone: Asia/Tokyo
+
+- url: /sawayaka
+  schedule: every day of month 17:00
+  timezone: Asia/Tokyo
