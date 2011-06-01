@@ -2,11 +2,11 @@
 
 import tweepy
 
-CONSUMER_KEY = 'w6yw70NmTOWXl1K1v3U1gQ'
-CONSUMER_SECRET = 'zyMM9q6iXAGjdcRArhzvJxCixxrbGXVbC3o3b9X3PE'
+CONSUMER_KEY = '自分の'
+CONSUMER_SECRET = '自分の'
 
-TOKEN_KEY = '116679230-bTMZj6uCijl89SooB2IfJjYoRArH55umB3M1EUsw'
-TOKEN_SECRET = 'xMgY6jGazd3VxIsMp3Er5mzowjR8uUuX7y0IEAeCyo'
+TOKEN_KEY = '自分の'
+TOKEN_SECRET = '自分の'
 
 class TwitterAuth(object):
 	def getAuth(self):
