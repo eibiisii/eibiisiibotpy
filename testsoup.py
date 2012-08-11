@@ -5,7 +5,7 @@ import urllib
 import urllib2
 from BeautifulSoup import BeautifulSoup
 
-APP_ID = "9kKlIEWxg67_7BkDOaNGUBIfjoHd4XjwDeKaf_.8odmK9cw4R3TWcbgCT.bA8CyMhVCiN1RC"  # 登録したアプリケーションID
+APP_ID = ""  # 登録したアプリケーションID
 PAGE_URL = "http://jlp.yahooapis.jp/MAService/V1/parse"
 KEY_PHRASE_URL = "http://jlp.yahooapis.jp/KeyphraseService/V1/extract"
 
